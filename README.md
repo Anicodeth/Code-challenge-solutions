@@ -1,2 +1,2 @@
 # Code-challenge-solutions
-Solutions for multiple leetcode and other platform code challenges.
+Solutions for multiple Leetcode and other platform programming challenges.
