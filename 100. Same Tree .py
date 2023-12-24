@@ -21,5 +21,3 @@ class Solution:
       return True
 
 
-
-
