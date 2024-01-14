@@ -11,10 +11,10 @@ class Solution:
         if self.isSameTree(p.left,q.left) == False:
           return False
         
-        if (p.val != q.val):
+        elif (p.val != q.val):
           return False
 
-        if self.isSameTree(p.right,q.right) == False:
+        elif self.isSameTree(p.right,q.right) == False:
           return False
 
       elif (p and not q) or (q and not p):
