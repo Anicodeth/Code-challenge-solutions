@@ -1,2 +1,3 @@
 # Code-challenge-solutions
-Solutions for multiple Leetcode, Codeforce, hackerrank and other platform programming challenges.
+Solutions for multiple Leetcode, Codeforce, Hackerrank and other platform programming challenges.
+
