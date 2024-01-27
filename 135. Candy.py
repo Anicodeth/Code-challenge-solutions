@@ -12,6 +12,7 @@ class Solution:
       for i in range(n - 2, -1, -1):
         if ratings[i + 1] < ratings[i]:
           right[i] = right[i + 1] + 1
+            
       res = 0
       for i in range(n):
         res += max(left[i], right[i])
