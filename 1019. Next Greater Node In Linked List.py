@@ -10,6 +10,7 @@ class Solution:
         head=prev
         return head
 
+
     def nextLargerNodes(self, head: Optional[ListNode]) -> List[int]:
       head=self.reverse(head)
       stack=[]
@@ -30,6 +31,7 @@ class Solution:
         stack.append(temp.val)
         temp=temp.next
       return res[::-1]
+
 
 
 
