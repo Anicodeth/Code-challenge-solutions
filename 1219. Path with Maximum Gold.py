@@ -6,6 +6,7 @@ class Solution:
         maxi = 0
         
         def dfs(i, j, curr):
+            
           nonlocal maxi
           if i >= m or i < 0 or j >= n or j < 0 or (i, j) in visited or grid[i][j] == 0:
             return
@@ -20,7 +21,6 @@ class Solution:
           dfs(i , j + 1, curr)
           dfs(i , j - 1, curr)
           visited.remove((i, j))
-
 
         for i in range(m):
           for j in range(n):
