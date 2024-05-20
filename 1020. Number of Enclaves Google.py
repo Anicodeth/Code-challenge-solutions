@@ -2,7 +2,6 @@ class Solution:
     def numEnclaves(self, grid: List[List[int]]) -> int:
 
         counter = 0
-
         def dfs(i, j):
             if i < 0 or i >= m or j < 0 or j >= n or grid[i][j] != 1:
                 return 
@@ -14,7 +13,6 @@ class Solution:
             dfs(i, j - 1)
 
         m, n = len(grid), len(grid[0])
-
         for i in range(m):
             dfs(i, 0)
             dfs(i, n - 1)
