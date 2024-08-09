@@ -20,5 +20,3 @@ class Solution:
       elif (p and not q) or (q and not p):
         return False   
       return True
-
-
